@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>ZippyShare Downloader</title>
+  </head>
+  <body class="bg-gradient-to-r from-indigo-400 to-indigo-800 font-quicksand">
+    <div class="text-center px-5 md:max-w-xl mx-auto max-w-[450px]">
+      <div class="content min-h-[572px]">
+        <div class="w-fit mx-auto mt-5">
+          <a href="/">
+            <img src="/img/arrow.png" alt="arrow">
+          </a>
+        </div>
+        <div class="mt-4">
+          <a href="/">
+            <h1 class="font-semibold text-white md:text-xl mb-1">ZippyShare Downloader</h1>
+          </a>
+          <form class="mt-8 px-5" action="" method="post">
+            <div class="relative">
+              <input type="text" placeholder="Paste link disini..." name="url" id="url" required autocomplete="off" class="pr-3 pl-9 py-[3px] rounded-full w-full focus:outline-none focus:ring inline text-slate-700 bg-slate-100 placeholder:text-slate-500 placeholder:text-sm placeholder:font-semibold font-semibold md:max-w-[95%] mx-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down text-slate-600 font-bold absolute top-[7px] md:left-[25px] left-[13px] cursor-pointer" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+              </svg>
+            </div>
+            <div class="flex justify-between mt-2 md:max-w-2/4 mx-auto max-w-[250px]">
+              <button type="reset" class="px-5 text-sm py-[6px] bg-white text-slate-700 font-bold rounded-full mt-3 active:bg-slate-400">Reset</button>
+              <button type="submit" class="px-5 text-sm py-[6px] bg-white text-slate-700 font-bold rounded-full mt-3 active:bg-slate-400">Download</button>
+            </div>
+          </form>
+      </div>
+    </div>
+    <div class="text-center">
+      <p class="text-white/80 text-sm tracking-wider">Made by <a href="https://github.com/rzkfyn" class="text-neutral-300 hover:text-neutral-200 transition">rzkfyn</a> with &lt;3</p>
+    </div>
+    <script type="module" src="/js/script.js"></script>
+  </body>
+</html>
